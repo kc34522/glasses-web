@@ -91,6 +91,8 @@ header img{
 
 header ul{
     display: flex;
+    justify-content: space-between;
+    width: 492px;
 }
 
 header ul li a{
@@ -100,7 +102,6 @@ header ul li a{
     line-height: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 64px;
 }
 
 .banner{
