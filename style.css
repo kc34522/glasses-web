@@ -371,7 +371,7 @@ h2{
 
 .contact{
     background: #FBF2F2;
-    padding: 80px 642px;
+    padding: 80px 33.4375%;
 }
 
 .contact > h2{
@@ -384,6 +384,7 @@ h2{
 }
 
 .contact .description{
+    width: 636px;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
@@ -398,26 +399,22 @@ h2{
 }
 
 .answer{
+    width: 636px;
     font-size: 16px;
     line-height: 24px;
     color: rgba(00, 00, 00, 0.2);
     border: 1px solid #000000;
     padding: 6px 0 6px 12px;
     margin-bottom: 16px;
+    background: #FBF2F2;
 }
 
 .long{
     height: 136px;
-}
-
-.contact img{
-    width: 24px;
-    margin-right: 4px;
-    vertical-align: top;
+    vertical-align: text-top;
 }
 
 .privacy{
-    display: inline-block;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px;
