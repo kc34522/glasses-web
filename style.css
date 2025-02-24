@@ -418,6 +418,7 @@ h2{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px;
+    width: initial;
 }
 
 .contact a{
@@ -448,7 +449,9 @@ footer{
 }
 
 .top ul{
+    width: 484px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -456,12 +459,16 @@ footer{
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    margin-right: 48px;
+}
+
+.top div{
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top img{
     width: 48px;
-    margin-left: 32px;
 }
 
 .center img{
@@ -495,13 +502,14 @@ hr{
 }
 
 .bottom ul{
+    width: 174px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bottom ul li{
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
-    margin-left: 48px;
 }
