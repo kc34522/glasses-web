@@ -327,7 +327,7 @@ h2{
 
 .section5{
     background: #FFFFFF;
-    padding: 80px 16.25%;
+    padding: 80px 0;
 }
 
 .section5 > h2{
@@ -335,25 +335,33 @@ h2{
     margin-bottom: 48px;
 }
 
+.section5 > div{
+margin: 0 auto;
+padding: 0 312px;
+}
+
 .section5 ul{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     border-radius: 4px;
 }
 
-.section5 img{
-    width: 306px;
+.section li{
+    max-width: 306px;
 }
 
 .section5 ul li > div{
-    width: 306px;
+    max-width: 306px;
     height: 205px;
     padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 2px 6px #00000029;
+}
+
+.section5 img{
+max-width: 306px;
 }
 
 .name{
