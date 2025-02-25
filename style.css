@@ -168,7 +168,7 @@ header ul li a{
 }
 
 h2{
-    font-size: 48px;
+    font-size: 2.5vw;
     line-height: 72px;
     font-weight: bold;
     text-align: center;
@@ -205,10 +205,11 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 23.6111%
 }
 
 .feature{
-    font-size: 24px;
+    font-size: 1.25vw;
     line-height: 36px;
     color: #650300;
     font-weight: bold;
@@ -216,9 +217,9 @@ h2{
 }
 
 .section2 .description{
-    font-size: 16px;
+    font-size: 0.8333%;
     line-height: 24px;
-    width: 306px;
+    width: 100%;
 }
 
 .section3{
@@ -241,10 +242,15 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+}
+
+.section3 li{
+    width: 32.0987%;
 }
 
 .section3 img{
-    width: 416px;
+    width: 100%;
     margin-bottom: 8px;
 }
 
@@ -257,7 +263,7 @@ h2{
 
 .section3 li p{
     color: #AA0601;
-    font-size: 48px;
+    font-size: 2.5vw;
     line-height: 72px;
     font-style: italic;
     font-weight: bold;
@@ -371,7 +377,7 @@ h2{
 
 .contact{
     background: #FBF2F2;
-    padding: 80px 642px;
+    padding: 80px 33.4375%;
 }
 
 .contact > h2{
@@ -384,6 +390,7 @@ h2{
 }
 
 .contact .description{
+    width: 636px;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
@@ -398,29 +405,25 @@ h2{
 }
 
 .answer{
+    width: 636px;
     font-size: 16px;
     line-height: 24px;
     color: rgba(00, 00, 00, 0.2);
     border: 1px solid #000000;
     padding: 6px 0 6px 12px;
     margin-bottom: 16px;
+    background: #FBF2F2;
 }
 
 .long{
     height: 136px;
 }
 
-.contact img{
-    width: 24px;
-    margin-right: 4px;
-    vertical-align: top;
-}
-
 .privacy{
-    display: inline-block;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px;
+    width: initial;
 }
 
 .contact a{
@@ -451,7 +454,9 @@ footer{
 }
 
 .top ul{
+    width: 484px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -459,12 +464,16 @@ footer{
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    margin-right: 48px;
+}
+
+.top div{
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top img{
     width: 48px;
-    margin-left: 32px;
 }
 
 .center img{
@@ -498,13 +507,14 @@ hr{
 }
 
 .bottom ul{
+    width: 174px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bottom ul li{
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
-    margin-left: 48px;
 }
