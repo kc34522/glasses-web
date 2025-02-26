@@ -177,7 +177,7 @@ h2{
 
 .section2{
     background: #FBF2F2;
-    padding: 80px 16.25%;
+    padding: 80px 40px;
 }
 
 @media (max-width:768px){
@@ -186,12 +186,17 @@ h2{
     }
 }
 
-.section2 > h2{
+.section2 > div{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.section2  h2{
     color: #650300;
     margin-bottom: 24px;
 }
 
-.section2 > ul{
+.section2  ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -210,7 +215,7 @@ h2{
 }
 
 .feature{
-    font-size: 1.25vw;
+    font-size: 24px;
     line-height: 36px;
     color: #650300;
     font-weight: bold;
@@ -218,7 +223,7 @@ h2{
 }
 
 .section2 .description{
-    font-size: 0.8333%;
+    font-size: 16px;
     line-height: 24px;
     width: 100%;
 }
