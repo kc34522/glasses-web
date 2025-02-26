@@ -482,32 +482,40 @@ footer{
     margin-bottom: 27px;
 }
 
-.top ul{
+.navbar{
     width: 484px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.top ul li{
+.sns-menu{
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.sns-menu li{
+    width: 48px;
+    height: 48px;
+}
+
+.navbar a{
+    display: block;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
 }
 
 .top div{
-    width: 208px;
+    width: 208px; 
     display: flex;
     justify-content: space-between;
 }
 
-.top img{
-    width: 48px;
-}
-
 .center img{
     width: 48px;
-    margin-right: 16px;
 }
 
 
@@ -517,6 +525,8 @@ footer{
     font-size: 36px;
     line-height: 54px;
     vertical-align: top;
+    margin-left: 16px;
+    font-family: "Source Han Sans TW", "serif";
 }
 
 hr{
@@ -542,13 +552,19 @@ hr{
     align-items: center;
 }
 
-.bottom ul li{
+.bottom ul li a{
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     color: #FFFFFF;
+    font-size: 36px !important;
+    padding: 6px;
 }
 
+.phone, .mail{
+    display: flex;
+    align-items: center;
+}
