@@ -503,8 +503,14 @@ label[for="checkbox"]{
 }
 
 footer{
-    padding: 48px 16.25% 32px;
     background: #AA0601;
+    padding: 0 40px;
+}
+
+footer > div{
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 48px 0 32px 0;
 }
 
 .top{
