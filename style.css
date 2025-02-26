@@ -225,7 +225,7 @@ h2{
 
 .section3{
     background: #FFFFFF;
-    padding: 80px 16.25%;
+    padding: 80px 40px;
 }
 
 @media (max-width:768px){
@@ -234,9 +234,14 @@ h2{
     }
 }
 
-.section3 > h2{
+.section3  h2{
     color: #650300;
     margin-bottom: 48px;
+}
+
+.section3 > div{
+    max-width: 1296px;
+    margin: 0 auto;
 }
 
 .section3 ul{
