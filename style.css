@@ -421,8 +421,20 @@ h2 {
     align-items: center;
 }
 
+@media (max-width:768px) {
+    .section4 ul {
+        row-gap: 24px;
+    }
+}
+
 .section4 li {
     width: 50%;
+}
+
+@media (max-width:768px) {
+    .section4 li {
+        width: 100%;
+    }
 }
 
 .section4 .picture1 {
@@ -452,12 +464,6 @@ h2 {
     font-weight: 900;
     text-align: center;
     padding: 8px 0;
-}
-
-@media (max-width:768px) {
-    .section4 p {
-        margin-bottom: 24px;
-    }
 }
 
 .section5 {
