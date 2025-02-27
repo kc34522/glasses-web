@@ -327,7 +327,7 @@ h2{
     height: 240px;
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true);
     background-size:cover;
-    background-position: center;
+    background-position: center center;
 
 }
 
@@ -336,7 +336,7 @@ h2{
     height: 240px;
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 
