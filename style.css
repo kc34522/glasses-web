@@ -171,12 +171,6 @@ header {
     padding: 0 36px;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 0 36px;
-    }
-}
-
 header>div {
     max-width: 1296px;
     margin: 0 auto;
@@ -217,6 +211,8 @@ header ul li a {
 @media (max-width: 768px) {
     .banner {
         background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+        background-position: center center;
+        background-size: cover;
     }
 
 }
@@ -282,12 +278,6 @@ h2 {
     padding: 80px 36px;
 }
 
-@media (max-width:768px) {
-    .section2 {
-        padding: 80px 36px;
-    }
-}
-
 .section2>div {
     max-width: 1296px;
     margin: 0 auto;
@@ -309,6 +299,12 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 23.6111%
+}
+
+@media (max-width: 768px) {
+    .section2 li {
+        width: 48.2758%;
+    }
 }
 
 .section2 img {
@@ -335,12 +331,6 @@ h2 {
     padding: 80px 36px;
 }
 
-@media (max-width:768px) {
-    .section3 {
-        padding: 80px 216px;
-    }
-}
-
 .section3 h2 {
     color: #650300;
     margin-bottom: 48px;
@@ -349,6 +339,12 @@ h2 {
 .section3>div {
     max-width: 1296px;
     margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .section3>div {
+        max-width: 336px;
+    }
 }
 
 .section3 ul {
@@ -361,6 +357,12 @@ h2 {
     max-width: 32.0987%;
 }
 
+@media (max-width:768px) {
+    .section3 li  {
+        max-width: 100%;
+    }
+}
+
 .section3 img {
     width: 100%;
     margin-bottom: 8px;
@@ -368,7 +370,7 @@ h2 {
 
 @media (max-width:768px) {
     .section3 img {
-        width: 336px;
+        max-width: 336px;
     }
 }
 
@@ -381,6 +383,12 @@ h2 {
     font-style: italic;
     font-weight: 900;
     text-align: center;
+}
+
+@media (max-width:768px) {
+    .section3 li p {
+        font-size: 48px;
+    }
 }
 
 .section4 {
