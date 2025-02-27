@@ -4,6 +4,8 @@
 */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 html,
 body,
@@ -155,10 +157,13 @@ img {
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Noto Sans TC", "Roboto", "serif";
+}
+
 .wrap {
     max-width: 1920px;
     margin: 0 auto;
-    font-family: "roboto", "Noto Sans TC", "serif";
 }
 
 header {
@@ -206,6 +211,7 @@ header ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
+
 }
 
 @media (max-width: 768px) {
@@ -232,11 +238,13 @@ header ul li a {
 
 .line2 {
     position: absolute;
-    top: 360px;
+    top: 350px;
     right: 16.25%;
     color: #650300;
     font-size: 64px;
     line-height: 96px;
+    font-weight: bold;
+    vertical-align: super;
 }
 
 @media (max-width: 768px) {
@@ -347,11 +355,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .section3 li {
-    width: 32.0987%;
+    max-width: 32.0987%;
 }
 
 .section3 img {
@@ -370,8 +377,9 @@ h2 {
     color: #AA0601;
     font-size: 2.5vw;
     line-height: 72px;
+    font-family: "Roboto", "Serif";
     font-style: italic;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -428,11 +436,12 @@ h2 {
 .section4 li p {
     width: 100%;
     color: #AA0601;
+    font-family: "Roboto", "Serif";
     background: #FFFFFF;
     font-size: 48px;
     line-height: 72px;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     padding: 8px 0;
 }
@@ -465,7 +474,7 @@ h2 {
 }
 
 .section5 li {
-    max-width: 25%;
+    max-width: 23.6111%;
 }
 
 .section5 img {
@@ -544,6 +553,9 @@ input {
     padding: 6px 0 6px 12px;
     margin-bottom: 16px;
     background: #FBF2F2;
+    outline-color: #AA0601;
+    caret-color: #AA0601;
+
 }
 
 ::placeholder {
@@ -560,7 +572,25 @@ input[name="checkbox"] {
     width: 24px;
     height: 24px;
     margin: 0;
+    /* -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none; */
+    border-radius: 5px;
+    border: 2px solid #000000;
 }
+
+
+/* input[type=checkbox]:hover {
+    background-color: #000000;
+} */
+
+input[type=checkbox]:visited {
+    color: red;
+}
+
+/* input[type=checkbox]:checked:after{
+    background-color: blue;
+} */
 
 label[for="checkbox"] {
     display: inline;
@@ -662,6 +692,7 @@ hr {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    font-family: "Roboto", "Serif";
 }
 
 .bottom ul {
