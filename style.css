@@ -487,8 +487,21 @@ h2 {
     border-radius: 4px;
 }
 
+@media (max-width:768px) {
+    .section5 ul {
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+}
+
 .section5 li {
     max-width: 23.6111%;
+}
+
+@media (max-width:768px) {
+    .section5 li {
+        max-width: 48.27586%;
+    }
 }
 
 .section5 img {
