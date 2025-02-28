@@ -668,9 +668,21 @@ h2 {
     }
 }
 
+@media (max-width: 767.98px) {
+    .section5>div {
+        max-width: 348px;
+    }
+}
+
 .section5 h2 {
     color: #650300;
     margin-bottom: 48px;
+}
+
+@media (max-width: 767.98px) {
+    .section5 h2 {
+        margin-bottom: 24px;
+    }
 }
 
 .section5 ul {
@@ -685,7 +697,13 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         justify-items: center;
+    }
+}
 
+@media (max-width: 767.98px) {
+    .section5 ul {
+        grid-template-columns: 1fr;
+        gap: 16px;
     }
 }
 
@@ -698,7 +716,6 @@ h2 {
         border-radius: 4px;
     }
 }
-
 
 @media (max-width:991.98px) {
     .section5 li div {
