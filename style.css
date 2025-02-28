@@ -732,14 +732,25 @@ label[for="checkbox"] {
 
 footer {
     background: #AA0601;
-    padding: 0 40px;
+    padding: 48px 36px 32px;
+}
+
+@media (max-width:991.98px) {
+    footer {
+        padding-bottom: 40px;
+    }
 }
 
 footer>div {
     max-width: 1296px;
     margin: 0 auto;
-    padding: 48px 0 32px 0;
 }
+
+@media (max-width:991.98px) {
+    footer>div {
+        max-width: 696px;
+    }
+}    
 
 .top {
     display: flex;
@@ -754,6 +765,12 @@ footer>div {
     align-items: center;
 }
 
+@media (max-width:991.98px) {
+    .navbar {
+        width: 464px;
+    }
+}   
+
 .navbar a {
     display: block;
     color: #FFFFFF;
@@ -767,6 +784,12 @@ footer>div {
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width:991.98px) {
+    .sns-menu {
+        width: 152px;
+    }
+}   
 
 .sns-menu li {
     width: 48px;
@@ -785,21 +808,19 @@ footer>div {
 .mail {
     display: flex;
     align-items: center;
+    gap:16px;
 }
 
 .material-symbols-outlined {
     color: #FFFFFF;
-    font-size: 36px !important;
-    padding: 6px;
+    font-size: 48px !important;
 }
 
-.center p {
-    display: inline-block;
+.phone :nth-last-of-type(1), .mail :nth-last-child(1){
+    display: block;
     color: #FFFFFF;
     font-size: 36px;
     line-height: 54px;
-    vertical-align: top;
-    margin-left: 16px;
 }
 
 hr {
