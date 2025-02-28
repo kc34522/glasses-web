@@ -724,7 +724,6 @@ h2 {
     }
 }
 
-
 .section5 img {
     display: block;
     object-fit:cover;
@@ -767,8 +766,8 @@ h2 {
 }
 
 .contact>div {
-    margin: 0 auto;
     width: 636px;
+    margin: 0 auto;
 }
 
 @media (max-width:991.98px) {
@@ -777,9 +776,13 @@ h2 {
     }
 }
 
+@media (max-width: 767.98px) {
+    .contact>div {
+        max-width: 348px;
+    }
+}
+
 .contact h2 {
-    font-size: 48px;
-    line-height: 72px;
     font-weight: bold;
     text-align: center;
     color: #650300;
@@ -791,7 +794,6 @@ h2 {
         margin-bottom: 24px;
     }
 }
-
 .contact .description {
     font-size: 20px;
     line-height: 30px;
@@ -834,10 +836,16 @@ input[name="phonenumber"], input[name="email"] {
 
 
 @media (max-width:991.98px) {
-
     textarea,
     input {
         max-width: 576px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    textarea,
+    input {
+        max-width: 348px;
     }
 }
 
@@ -850,8 +858,12 @@ textarea {
     resize: none;
 }
 
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
 input[name="checkbox"] {
-    display: inline;
     width: 20px;
     height: 20px;
     margin: 0;
@@ -896,9 +908,15 @@ label[for="checkbox"] {
 }
 
 @media (max-width:991.98px) {
-
     .contact a {
         max-width: 336px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact a {
+        margin: 24px auto 0;
+        max-width: 348px;
     }
 }
 
