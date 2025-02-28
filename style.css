@@ -420,13 +420,20 @@ h2 {
 
 @media (max-width:991.98px) {
     .section4 {
-        padding: 80px 36px;
+        background: url(/img/nick-owuor-astro-nic-portraits-54Q_HvMWtVE-unsplash.jpg);
+        background-size: cover;
     }
 }
 
 .section4>div {
     max-width: 1296px;
     margin: 0 auto;
+}
+
+@media (max-width:991.98px) {
+    .section4>div {
+        max-width: 696px;
+    }
 }
 
 .section4 h2 {
@@ -458,19 +465,17 @@ h2 {
 }
 
 .section4 .picture1 {
-    max-width: 100%;
     height: 240px;
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .section4 .picture2 {
-    max-width: 100%;
     height: 240px;
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .section4 li p {
