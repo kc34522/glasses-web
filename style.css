@@ -528,7 +528,6 @@ h2 {
     }
 } 
 
-
 .section3 li p {
     color: #AA0601;
     /* font-size: 2.5vw; */
@@ -556,6 +555,7 @@ h2 {
     .section4 {
         background: url(/img/nick-owuor-astro-nic-portraits-54Q_HvMWtVE-unsplash.jpg);
         background-size: cover;
+        background-position: center;
     }
 }
 
@@ -570,9 +570,21 @@ h2 {
     }
 }
 
+@media (max-width: 767.98px) {
+    .section4>div {
+        max-width: 348px;
+    }
+} 
+
 .section4 h2 {
     color: #FFFFFF;
     margin-bottom: 48px;
+}
+
+@media (max-width: 767.98px) {
+    .section4 h2 {
+        margin-bottom: 24px;
+    }
 }
 
 .section4 ul {
@@ -605,11 +617,27 @@ h2 {
     background-position: center;
 }
 
+@media (max-width: 767.98px) {
+    .section4 .picture1 {
+        background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1-sm.png?raw=true);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .section4 .picture2 {
     height: 240px;
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 767.98px) {
+    .section4 .picture2 {
+        background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2-sm.png?raw=true);
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .section4 li p {
