@@ -274,7 +274,12 @@ header ul li a {
         background-position: center center;
         background-size: cover;
     }
+}
 
+@media (max-width: 767.98px) {
+    .banner {
+        height: 396px;
+    }
 }
 
 .line1 {
@@ -292,6 +297,15 @@ header ul li a {
     }
 }
 
+@media (max-width: 767.98px) {
+    .line1 {
+        top: 144px;
+        right: 14px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
 .line2 {
     position: absolute;
     top: 350px;
@@ -300,12 +314,20 @@ header ul li a {
     font-size: 64px;
     line-height: 96px;
     font-weight: bold;
-    vertical-align: super;
 }
 
 @media (max-width: 991.98px) {
     .line2 {
         right: 37px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .line2 {
+        top: 168px;
+        right: 14px;
+        font-size: 24px;
+        line-height: 36px;
     }
 }
 
@@ -323,6 +345,13 @@ header ul li a {
 @media (max-width: 991.98px) {
     .buy-button {
         right: 37px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .buy-button {
+        top: 212px;
+        right: 14px;
     }
 }
 
