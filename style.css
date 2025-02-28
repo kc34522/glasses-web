@@ -208,7 +208,7 @@ header ul li a {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .banner {
         background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
         background-position: center center;
@@ -226,7 +226,7 @@ header ul li a {
     line-height: 54px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .line1 {
         right: 36px;
     }
@@ -243,7 +243,7 @@ header ul li a {
     vertical-align: super;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .line2 {
         right: 37px;
     }
@@ -260,7 +260,7 @@ header ul li a {
     background: #AA0601;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .buy-button {
         right: 37px;
     }
@@ -301,7 +301,7 @@ h2 {
     width: 23.6111%
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .section2 li {
         width: 48.2758%;
     }
@@ -341,7 +341,7 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width:768px) {
+@media (max-width: 991.98px) {
     .section3>div {
         max-width: 336px;
     }
@@ -357,7 +357,7 @@ h2 {
     max-width: 32.0987%;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section3 li {
         max-width: 100%;
     }
@@ -368,7 +368,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section3 img {
         max-width: 336px;
     }
@@ -385,7 +385,7 @@ h2 {
     text-align: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section3 li p {
         font-size: 48px;
     }
@@ -398,7 +398,7 @@ h2 {
     padding: 80px 36px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section4 {
         padding: 80px 36px;
     }
@@ -421,7 +421,7 @@ h2 {
     align-items: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section4 ul {
         row-gap: 24px;
     }
@@ -431,7 +431,7 @@ h2 {
     width: 50%;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section4 li {
         width: 100%;
     }
@@ -485,12 +485,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     border-radius: 4px;
+    gap: 24px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section5 ul {
         flex-wrap: wrap;
-        row-gap: 24px;
+        /* row-gap: 24px;
+        column-gap: 24px; */
     }
 }
 
@@ -498,7 +500,7 @@ h2 {
     max-width: 23.6111%;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .section5 li {
         max-width: 48.27586%;
     }
@@ -546,7 +548,7 @@ h2 {
     width: 636px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
     .contact>div {
         max-width: 576px;
     }
@@ -589,7 +591,7 @@ input {
     caret-color: #AA0601;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
 
     textarea,
     input {
@@ -649,7 +651,7 @@ label[for="checkbox"] {
     text-align: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
 
     .contact a {
         max-width: 336px;
@@ -703,7 +705,7 @@ footer>div {
     height: 48px;
 }
 
-@media (max-width:768px) {
+@media (max-width:991.98px) {
 
     .sns-menu li {
         width: 40px;
