@@ -362,10 +362,28 @@ h2 {
     text-align: center;
 }
 
-.section2 {
-    background: #FBF2F2;
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+
+.section2, .section3, .section4, .section5, .contact{
     padding: 80px 36px;
 }
+
+@media (max-width: 767.98px) {
+    .section2, .section3, .section4, .section5, .contact{
+        padding: 40px 14px 40px 13px;
+    }
+}   
+
+.section2 {
+    background: #FBF2F2;
+}
+
 
 .section2>div {
     max-width: 1296px;
@@ -375,9 +393,14 @@ h2 {
 @media (max-width: 991.98px) {
     .section2>div {
         max-width: 696px;
-        margin: 0 auto;
     }
 }
+
+@media (max-width: 767.98px) {
+    .section2>div {
+        max-width: 348px;
+    }
+}   
 
 .section2 h2 {
     color: #650300;
@@ -399,6 +422,12 @@ h2 {
         justify-items: center;
     }
 }
+
+@media (max-width: 767.98px) {
+    .section2 ul {
+        grid-template-columns: 1fr;
+    }
+}   
 
 .section2 li {
     display: flex;
@@ -427,7 +456,6 @@ h2 {
 
 .section3 {
     background: #FFFFFF;
-    padding: 80px 36px;
 }
 
 .section3 h2 {
@@ -504,7 +532,6 @@ h2 {
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
     background-size: cover;
     background-position: center;
-    padding: 80px 36px;
 }
 
 @media (max-width:991.98px) {
@@ -582,7 +609,6 @@ h2 {
 
 .section5 {
     background: #FFFFFF;
-    padding: 80px 36px;
 }
 
 .section5>div {
@@ -675,7 +701,6 @@ h2 {
 
 .contact {
     background: #FBF2F2;
-    padding: 80px 36px;
 }
 
 .contact>div {
