@@ -172,6 +172,12 @@ header {
     padding: 0 36px;
 }
 
+@media (max-width: 991.98px) {
+    header {
+        padding: 0;
+    }
+}
+
 header>div {
     max-width: 1296px;
     margin: 0 auto;
@@ -180,8 +186,38 @@ header>div {
     align-items: center;
 }
 
+@media (max-width: 991.98px) {
+    header>div {
+        max-width: 696px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header>div {
+        display: block;
+    }
+}
+
+header div > a{
+    display: block;
+}
+
+@media (max-width: 767.98px) {
+    header div > a{
+        height: 80px;
+        align-content: center;
+    }
+}
+
 header img {
     width: 80px;
+    padding: 15px 0;
+}
+
+@media (max-width: 767.98px) {
+    header img {
+        margin-left: 15px;
+    }
 }
 
 header ul {
@@ -190,13 +226,36 @@ header ul {
     width: 492px;
 }
 
+@media (max-width: 767.98px) {
+    header ul {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
 header ul li a {
     display: block;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 25px 0;
+}
+
+@media (max-width: 767.98px) {
+    header ul li{
+        width: 50%;
+        height: 48px;
+        border: 1px solid #FFFFFF;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header ul li a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 12px 0;
+    }
 }
 
 .banner {
