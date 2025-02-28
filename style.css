@@ -147,6 +147,7 @@ a {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -609,11 +610,24 @@ h2 {
     margin-bottom: 48px;
 }
 
+@media (max-width:991.98px) {
+    .contact h2 {
+        margin-bottom: 24px;
+    }
+}
+
 .contact .description {
     font-size: 20px;
     line-height: 30px;
     color: #000000;
     margin-bottom: 24px;
+}
+
+@media (max-width:991.98px) {
+    .contact .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
 label {
@@ -627,6 +641,7 @@ label {
 textarea,
 input {
     width: 636px;
+    height: 36px;
     font-size: 16px;
     line-height: 24px;
     border: 1px solid #000000;
@@ -636,6 +651,11 @@ input {
     outline-color: #AA0601;
     caret-color: #AA0601;
 }
+
+input[name="phonenumber"], input[name="email"] {
+    height: 33px;
+}
+
 
 @media (max-width:991.98px) {
 
@@ -656,14 +676,15 @@ textarea {
 
 input[name="checkbox"] {
     display: inline;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin: 0;
+    margin-bottom: 0;
     /* -moz-appearance: none;
     -webkit-appearance: none;
     -o-appearance: none; */
     border-radius: 5px;
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
 }
 
 
@@ -681,8 +702,9 @@ input[type=checkbox]:visited {
 
 label[for="checkbox"] {
     display: inline;
-    vertical-align: super;
+    vertical-align:top;
     margin-left: 4px;
+    margin-bottom: 0;
 }
 
 .contact a {
