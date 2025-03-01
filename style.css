@@ -766,7 +766,7 @@ h2 {
 }
 
 .contact>div {
-    width: 636px;
+    max-width: 636px;
     margin: 0 auto;
 }
 
@@ -818,7 +818,7 @@ label {
 
 textarea,
 input {
-    width: 636px;
+    width: 100%;
     height: 36px;
     font-size: 16px;
     line-height: 24px;
@@ -834,21 +834,6 @@ input[name="phonenumber"], input[name="email"] {
     height: 33px;
 }
 
-
-@media (max-width:991.98px) {
-    textarea,
-    input {
-        max-width: 576px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    textarea,
-    input {
-        max-width: 348px;
-    }
-}
-
 ::placeholder {
     color: rgba(00, 00, 00, 0.2);
 }
@@ -861,6 +846,12 @@ textarea {
 .checkbox{
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 767.98px) {
+    .checkbox{
+        align-items: flex-start;
+    }
 }
 
 input[name="checkbox"] {
@@ -896,7 +887,7 @@ label[for="checkbox"] {
 }
 
 .contact a {
-    width: 416px;
+    max-width: 416px;
     margin: 48px auto 0;
     font-size: 16px;
     line-height: 24px;
