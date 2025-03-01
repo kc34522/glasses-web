@@ -926,6 +926,12 @@ footer {
     }
 }
 
+@media (max-width: 767.98px) {
+    footer {
+        padding: 24px 14px 24px 13px;
+    }
+} 
+
 footer>div {
     max-width: 1296px;
     margin: 0 auto;
@@ -936,6 +942,12 @@ footer>div {
         max-width: 696px;
     }
 }    
+
+@media (max-width: 767.98px) {
+    footer>div {
+        max-width: 348px;
+    }
+} 
 
 .top {
     display: flex;
@@ -956,12 +968,27 @@ footer>div {
     }
 }   
 
+@media (max-width: 767.98px) {
+    .navbar {
+       display: none;;
+    }
+} 
+
+
 .navbar a {
     display: block;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
 }
+
+@media (max-width: 767.98px) {
+    .mb-top{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+} 
 
 .sns-menu {
     width: 208px;
@@ -974,7 +1001,13 @@ footer>div {
     .sns-menu {
         width: 152px;
     }
-}   
+}
+
+@media (max-width: 767.98px) {
+    .sns-menu {
+        width: 88px;
+    }
+}  
 
 .sns-menu li {
     width: 48px;
@@ -989,6 +1022,13 @@ footer>div {
     }
 }
 
+@media (max-width: 767.98px) {
+    .sns-menu li {
+        width: 24px;
+        height: 24px;
+    }    
+} 
+
 .phone,
 .mail {
     display: flex;
@@ -996,10 +1036,22 @@ footer>div {
     gap:16px;
 }
 
+@media (max-width: 767.98px) {
+    .phone,.mail {
+        gap:8px;
+    }
+} 
+
 .material-symbols-outlined {
     color: #FFFFFF;
     font-size: 48px !important;
 }
+
+@media (max-width: 767.98px) {
+    .material-symbols-outlined {
+        font-size: 24px !important;
+    }   
+} 
 
 .phone :nth-last-of-type(1), .mail :nth-last-child(1){
     display: block;
@@ -1008,14 +1060,37 @@ footer>div {
     line-height: 54px;
 }
 
+@media (max-width: 767.98px) {
+    .phone :nth-last-of-type(1), .mail :nth-last-child(1){
+        font-size: 16px;
+        line-height: 24px;
+    }  
+} 
+
+.phone :nth-last-of-type(1){
+    margin-bottom: 8px;
+}
+
 hr {
     margin: 32px 0;
 }
+
+@media (max-width: 767.98px) {
+    hr {
+        margin: 24px 0 16px 0;
+    }
+} 
 
 .bottom {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 767.98px) {
+    .bottom {
+        display: block;
+    }
+} 
 
 .bottom p {
     font-size: 16px;
@@ -1031,8 +1106,24 @@ hr {
     align-items: center;
 }
 
+@media (max-width: 767.98px) {
+    .bottom ul {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+        margin-top: 8px;
+    }
+} 
+
 .bottom ul li a {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
 }
+
+@media (max-width: 767.98px) {
+    .bottom ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+} 
