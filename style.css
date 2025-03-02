@@ -172,7 +172,7 @@ header {
     padding: 0 36px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     header {
         padding: 0;
     }
@@ -186,13 +186,13 @@ header>div {
     align-items: center;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     header>div {
         max-width: 696px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header>div {
         display: block;
         max-width: 100%;
@@ -203,7 +203,7 @@ header div > a{
     display: block;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header div > a{
         height: 80px;
         align-content: center;
@@ -215,7 +215,7 @@ header img {
     padding: 15px 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header img {
         margin-left: 13px;
     }
@@ -227,7 +227,7 @@ header ul {
     width: 492px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header ul {
         flex-wrap: wrap;
         width: 100%;
@@ -242,7 +242,7 @@ header ul li a {
     padding: 25px 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header ul li{
         width: 50%;
         height: 48px;
@@ -251,7 +251,7 @@ header ul li a {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     header ul li a {
         font-size: 16px;
         line-height: 24px;
@@ -268,7 +268,7 @@ header ul li a {
     background-position: center;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     .banner {
         background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
         background-position: center center;
@@ -276,7 +276,7 @@ header ul li a {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .banner {
         height: 396px;
         padding: 0 13px;
@@ -296,7 +296,7 @@ header ul li a {
     padding-top: 296px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .line1 {
         padding-top: 144px;
         font-size: 16px;
@@ -311,7 +311,7 @@ header ul li a {
     font-weight: bold;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .line2 {
         font-size: 24px;
         line-height: 36px;
@@ -330,7 +330,7 @@ header ul li a {
     margin-top: 4px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .buy-button {
         padding-bottom: 5px;
     }
@@ -343,7 +343,7 @@ h2 {
     text-align: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     h2 {
         font-size: 24px;
         line-height: 36px;
@@ -355,7 +355,7 @@ h2 {
     padding: 80px 36px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section2, .section3, .section4, .section5, .contact{
         padding: 40px 13px;
     }
@@ -371,13 +371,13 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     .section2>div {
         max-width: 696px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section2>div {
         max-width: 348px;
     }
@@ -394,7 +394,7 @@ h2 {
     gap: 24px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     .section2 ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -404,7 +404,7 @@ h2 {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section2 ul {
         grid-template-columns: 1fr;
     }
@@ -444,7 +444,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section3 h2 {
         margin-bottom: 24px;
     }
@@ -455,13 +455,13 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1201px) {
     .section3>div {
         max-width: 336px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section3>div {
         max-width: 348px;
     }
@@ -471,12 +471,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 24px
-        /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px; */
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section3 ul {
         flex-wrap: wrap;
     }
@@ -486,7 +483,7 @@ h2 {
     max-width: 416px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section3 li {
         max-width: 100%;
     }
@@ -497,13 +494,13 @@ h2 {
     margin-bottom: 8px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section3 img {
         max-width: 336px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section3 img {
         max-width: 348px;
     }
@@ -520,7 +517,7 @@ h2 {
     text-align: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section3 li p {
         font-size: 48px;
     }
@@ -532,7 +529,7 @@ h2 {
     background-position: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section4 {
         background: url(/img/nick-owuor-astro-nic-portraits-54Q_HvMWtVE-unsplash.jpg);
         background-size: cover;
@@ -545,13 +542,13 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section4>div {
         max-width: 696px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section4>div {
         max-width: 348px;
     }
@@ -562,7 +559,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section4 h2 {
         margin-bottom: 24px;
     }
@@ -575,7 +572,7 @@ h2 {
     align-items: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section4 ul {
         row-gap: 24px;
     }
@@ -585,7 +582,7 @@ h2 {
     width: 50%;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section4 li {
         width: 100%;
     }
@@ -598,7 +595,7 @@ h2 {
     background-position: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section4 .picture1 {
         background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1-sm.png?raw=true);
         background-size: cover;
@@ -613,7 +610,7 @@ h2 {
     background-position: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section4 .picture2 {
         background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2-sm.png?raw=true);
         background-size: cover;
@@ -643,13 +640,13 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section5>div {
         max-width: 696px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section5>div {
         max-width: 348px;
     }
@@ -660,7 +657,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section5 h2 {
         margin-bottom: 24px;
     }
@@ -673,7 +670,7 @@ h2 {
     gap: 24px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section5 ul {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -681,7 +678,7 @@ h2 {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section5 ul {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -692,20 +689,20 @@ h2 {
     border-radius: 4px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section5 ul li {
         border-radius: 4px;
     }
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section5 li div {
         max-width: 336px;
         max-height: 306px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section5 li div {
         max-width: 348px;
         max-height: 306px;
@@ -718,7 +715,7 @@ h2 {
     object-position: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .section5 img {
         width: 336px;
         max-height: 306px;
@@ -726,7 +723,7 @@ h2 {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .section5 img {
         width: 348px;
     }
@@ -764,13 +761,13 @@ h2 {
     margin: 0 auto;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .contact>div {
         max-width: 576px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .contact>div {
         max-width: 348px;
     }
@@ -783,7 +780,7 @@ h2 {
     margin-bottom: 48px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .contact h2 {
         margin-bottom: 24px;
     }
@@ -795,7 +792,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .contact .description {
         font-size: 16px;
         line-height: 24px;
@@ -842,7 +839,7 @@ textarea {
     align-items: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .checkbox{
         align-items: flex-start;
     }
@@ -893,13 +890,13 @@ label[for="checkbox"]{
     border: none;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .contact button {
         max-width: 336px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .contact button {
         margin: 24px auto 0;
         max-width: 348px;
@@ -917,13 +914,13 @@ footer {
     padding: 48px 36px 32px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     footer {
         padding-bottom: 40px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     footer {
         padding: 24px 13px;
     }
@@ -934,13 +931,13 @@ footer>div {
     margin: 0 auto;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     footer>div {
         max-width: 696px;
     }
 }    
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     footer>div {
         max-width: 348px;
     }
@@ -959,13 +956,13 @@ footer>div {
     align-items: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .navbar {
         width: 464px;
     }
 }   
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .navbar {
        display: none;;
     }
@@ -980,7 +977,7 @@ footer>div {
     padding: 12px 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .mb-top{
         display: flex;
         flex-direction: row-reverse;
@@ -995,13 +992,13 @@ footer>div {
     align-items: center;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
     .sns-menu {
         width: 152px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .sns-menu {
         width: 88px;
     }
@@ -1012,7 +1009,7 @@ footer>div {
     height: 48px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1201px) {
 
     .sns-menu li {
         width: 40px;
@@ -1020,7 +1017,7 @@ footer>div {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .sns-menu li {
         width: 24px;
         height: 24px;
@@ -1034,7 +1031,7 @@ footer>div {
     gap:16px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .phone,.mail {
         gap:8px;
     }
@@ -1045,7 +1042,7 @@ footer>div {
     font-size: 48px !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .material-symbols-outlined {
         font-size: 24px !important;
     }   
@@ -1058,7 +1055,7 @@ footer>div {
     line-height: 54px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .phone :nth-last-of-type(1), .mail :nth-last-child(1){
         font-size: 16px;
         line-height: 24px;
@@ -1073,7 +1070,7 @@ hr {
     margin: 32px 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     hr {
         margin: 24px 0 16px 0;
     }
@@ -1084,7 +1081,7 @@ hr {
     justify-content: space-between;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .bottom {
         display: block;
     }
@@ -1104,7 +1101,7 @@ hr {
     align-items: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .bottom ul {
         flex-direction: column;
         align-items: start;
@@ -1119,7 +1116,7 @@ hr {
     line-height: 21px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 769px) {
     .bottom ul li a {
         font-size: 16px;
         line-height: 24px;
