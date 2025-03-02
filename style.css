@@ -880,8 +880,8 @@ label[for="checkbox"] {
     margin-bottom: 0;
 }
 
-.contact a {
-    max-width: 416px;
+.contact button {
+    width: 416px;
     margin: 48px auto 0;
     font-size: 16px;
     line-height: 24px;
@@ -890,23 +890,26 @@ label[for="checkbox"] {
     padding: 16px 0;
     background: #AA0601;
     text-align: center;
+    border: none;
 }
 
 @media (max-width:991.98px) {
-    .contact a {
+    .contact button {
         max-width: 336px;
     }
 }
 
 @media (max-width: 767.98px) {
-    .contact a {
+    .contact button {
         margin: 24px auto 0;
         max-width: 348px;
+        width: 100%;
     }
 }
 
-.contact a:hover {
+.contact button:hover {
     background: #650300;
+    cursor:pointer;
 }
 
 footer {
