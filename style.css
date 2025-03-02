@@ -301,8 +301,6 @@ header ul li a {
     }
 }   
 
-
-
 .line1 {
     color: #650300;
     font-size: 36px;
@@ -841,6 +839,10 @@ input[name="phonenumber"], input[name="email"] {
 
 ::placeholder {
     color: rgba(00, 00, 00, 0.2);
+}
+
+#phonenumber::placeholder, #email::placeholder {
+    font-family: "Roboto", "Serif";
 }
 
 textarea {
