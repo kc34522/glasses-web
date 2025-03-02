@@ -289,6 +289,20 @@ header ul li a {
     text-align: right;
 } 
 
+@media (max-width: 1201px) {
+    .banner > div {
+        max-width: 696px;
+    }
+}
+
+@media (max-width: 769px) {
+    .banner >div {
+        max-width: 348px;
+    }
+}   
+
+
+
 .line1 {
     color: #650300;
     font-size: 36px;
