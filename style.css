@@ -1085,6 +1085,7 @@ footer>div {
 
 hr {
     margin: 32px 0;
+    border: 1px solid #FFFFFF;
 }
 
 @media (max-width: 769px) {
