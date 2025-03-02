@@ -544,7 +544,7 @@ h2 {
 
 @media (max-width:1201px) {
     .section4 {
-        background: url(/img/nick-owuor-astro-nic-portraits-54Q_HvMWtVE-unsplash.jpg);
+        background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true);
         background-size: cover;
         background-position: center;
     }
